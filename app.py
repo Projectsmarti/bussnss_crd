@@ -3,7 +3,7 @@ import os, pandas as pd, google.generativeai as gem, csv, ast, streamlit as st
 from langchain_core.messages import HumanMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-os.environ["GOOGLE_API_KEY"] = 'AIzaSyBbepUh8x3CqpkxNFnJ1IX0dFc0UNTwwbU'
+os.environ["GOOGLE_API_KEY"] = 'AIzaSyC4g4c-Dri_4CiRkSk0vN8w81r7OUj0iQs'
 gem.configure(api_key=os.environ["GOOGLE_API_KEY"])
 # Configuration
 IMAGE_FOLDER = "uploaded_images"

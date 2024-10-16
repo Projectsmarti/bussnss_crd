@@ -2,6 +2,7 @@ from PIL import Image
 import os, pandas as pd, google.generativeai as gem, csv, ast, streamlit as st
 from langchain_core.messages import HumanMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain import verbose
 
 os.environ["GOOGLE_API_KEY"] = 'AIzaSyDBYwT1atq4es0NST5mk10BASONgj1FFqQ'
 gem.configure(api_key=os.environ["GOOGLE_API_KEY"])
